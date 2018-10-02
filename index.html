@@ -73,19 +73,32 @@
                 
                 background-color:blue;
             }
+            .btw
+            {
+                border:auto;
+                border-color:white;
+                background-color:red;
         </style>
+        <script>
+            function mblog()
+            {
+                open.window("http://androidstockzone.wordpress.com");
+            }
+        </script>
     </head>
 
     <body>
+         <div class="buttonlg">
+            <p>Cubics Web Edition Creado Por Asier</br></p>
+            <button class="btw" onclick="mblog()">Ir Al Blog Del Creador</button>
+        </div>
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="640" height="480">
                <p>Your browser doesn't support HTML5 canvas.</p>
             </canvas>
         </div>
-        <div class="buttonlg">
-            <p>Cubics Web Edition</br>    Creado Por Asier</p>
-        </div>
+
 
         <!-- Run the game code -->
         <script type="text/javascript" src="html5game/Cubics.js?DJRZB=755983273"></script>
